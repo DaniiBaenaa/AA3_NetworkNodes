@@ -25,6 +25,8 @@ public class Nodo {
         // TODO: conecta este nodo con "otro" (sin duplicados)//AÑADIDA
     }
 
+    
+
 
     
     
