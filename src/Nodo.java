@@ -40,14 +40,11 @@ public class Nodo {
 
 
 
-    
-    
-
     @Override
     public String toString() {
-        // TODO: devolver algo tipo:
-        // "WebServer (172.16.0.10) [VULN] [PWN]" etc.
-        return "";
+        // TODO: devolver algo tipo: 
+        // "WebServer (172.16.0.10) [VULN] [PWN]" etc. //AÑADIDA
+        return nombre + ip + firewall + comprometido + vecinos;
     }
 
 
