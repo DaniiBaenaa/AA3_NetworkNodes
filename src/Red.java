@@ -22,6 +22,11 @@
 
         
         void mostrar() {
+                System.out.println("===GRAFO===");
+                for (Nodo n : nodos){
+                    System.out.println(n + "-->" + n.getValor());
+
+                }
             // TODO: imprime topología (nodo -> vecinos)
         }
         
