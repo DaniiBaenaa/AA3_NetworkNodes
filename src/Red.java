@@ -24,10 +24,10 @@
         void mostrar() {
                 System.out.println("===GRAFO===");
                 for (Nodo n : nodos){
-                    System.out.println(n + "-->" + n.getValor());
+                    System.out.println(n.getNombre() + "-->" + n.getVecinos());
 
                 }
-            // TODO: imprime topología (nodo -> vecinos)
+            // TODO: imprime topología (nodo -> vecinos)//AÑADIDA
         }
         
         void resetCompromisos() {
