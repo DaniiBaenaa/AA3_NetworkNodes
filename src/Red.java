@@ -4,7 +4,8 @@
         ArrayList<Nodo> nodos;
 
         Red() {
-             // TODO: Realizar constructor
+            nodos = new ArrayList<>();
+             // TODO: Realizar constructor //Hecho
         }
 
         void agregarNodo(Nodo n) {
