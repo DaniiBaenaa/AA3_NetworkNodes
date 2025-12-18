@@ -5,7 +5,7 @@
 
         Red() {
             nodos = new ArrayList<>();
-             // TODO: Realizar constructor //Hecho
+             // TODO: Realizar constructor //AÑADIDA
         }
 
         void agregarNodo(Nodo n) {
@@ -15,7 +15,9 @@
         }
 
         void conectar(Nodo a, Nodo b) {
-            // TODO: conecta a <-> b (bidireccional)
+            a.conectar(b);
+            b.conectar(a);
+            // TODO: conecta a <-> b (bidireccional)//AÑADIDA
         }
 
         
