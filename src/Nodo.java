@@ -29,13 +29,8 @@ public class Nodo {
         return nombre;
     }
 
-    public String getVecinos(){
-        String tmp = "";
-        for (Nodo v : vecinos){
-            tmp += "[" + v.getNombre() + "]";
-
-        }
-        return tmp;
+    public ArrayList<Nodo> getVecinos(){
+        return vecinos;
     }
 
 

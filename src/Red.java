@@ -52,8 +52,12 @@
         }
 
         String listarVecinosDe(Nodo n) {
+            String lista = " ";
+            for (Nodo v: n.getVecinos()){
+                lista += v + " ";
+            }
+            return lista;
             // Listar vecinos (iterar vecinos)
-            return "";
         }
 
         ArrayList<Nodo> nodosAislados() {
