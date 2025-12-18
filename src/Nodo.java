@@ -25,7 +25,19 @@ public class Nodo {
         // TODO: conecta este nodo con "otro" (sin duplicados)//AÑADIDA
     }
 
-    
+    public String getNombre(){
+        return nombre;
+    }
+
+    public String getVecinos(){
+        String tmp = "";
+        for (Nodo v : vecinos){
+            tmp += "[" + v.getNombre() + "]";
+
+        }
+        return tmp;
+    }
+
 
 
     
