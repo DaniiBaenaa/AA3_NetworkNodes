@@ -14,7 +14,9 @@ public class Nodo {
 
         
     void conectar(Nodo otro) {
-        // TODO: conecta este nodo con "otro" (sin duplicados)
+        if(!vecinos.conatins(otro))
+            vecinos.add(otro);
+        // TODO: conecta este nodo con "otro" (sin duplicados)//AÑADIDA
     }
 
     @Override
