@@ -9,15 +9,25 @@ public class Nodo {
     ArrayList<Nodo> vecinos;
 
     Nodo(String nombre, String ip, boolean firewall, boolean vulnerable) {
-        // TODO: Realizar constructor
+        this.nombre = nombre;
+        this.vecinos = new ArrayList<>();
+        this.ip = ip;
+        this.firewall = firewall;
+        this.vulnerable = vulnerable;
+
+        // TODO: Realizar constructor//AÑADIDA
     }
 
         
     void conectar(Nodo otro) {
-        if(!vecinos.conatins(otro))
+        if(!vecinos.contains(otro))
             vecinos.add(otro);
         // TODO: conecta este nodo con "otro" (sin duplicados)//AÑADIDA
     }
+
+
+    
+    
 
     @Override
     public String toString() {
