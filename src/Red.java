@@ -8,7 +8,9 @@
         }
 
         void agregarNodo(Nodo n) {
-            // TODO: añade nodo a la red
+            if (!nodos.contains(n))
+                nodos.add(n);
+            // TODO: añade nodo a la red //AÑADIDA
         }
 
         void conectar(Nodo a, Nodo b) {
